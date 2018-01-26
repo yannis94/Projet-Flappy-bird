@@ -18,16 +18,21 @@ function play(){
 
 
  	//mouvement tuyeau
-function animpipe(){
+// function animpipe(){
 
- 	$('#pipe').animate({right: '+=950px'}, 7000, 'linear', function hauteur(){
+ 	$('#pipe').animate({right: '+=950px'}, 7000, 'linear');			//, function hauteur(){
 
- 		var htr = Math.floor(Math.random()*500);
 
- 		$('#pipe').css('top', htr)
- 	}  )
+ 	// 	var min = 100
 
- 	}
+ 	// 	var max = 300
+
+ 	// 	var htr = max - min ;
+
+ 	// 	$('#pipe').css('top', htr)
+ 	// }  )
+
+ 	// }
  };
 
 
